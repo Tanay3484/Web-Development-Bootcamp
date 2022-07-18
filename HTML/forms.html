@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="passwd">Enter password:</label>
+            <input type="password" placeholder="passwd" id="passwd" name="passwd">
+        </p>
+        <p>
+            <label for="clr">Pick a color:</label>
+            <input type="color" id="clr" name="color">
+        </p>
+        <p>
+            <label for="num">Pick a number:</label>
+            <input type="number" placeholder="Enter a number" id="num" name="num">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            Please select a shirt size<br>
+            <input type="radio" name="size" id="xs" value="XS">
+            <label for="xs">XS</label>
+
+            <input type="radio" name="size" id="s" value="S">
+            <label for="s">S</label>
+
+            <input type="radio" name="size" id="m" value="M">
+            <label for="m">M</label>
+        </p>
+        <p>
+            <label for="menu">Please select an Entree from the list</label>
+            <select name="menu" id="menu">
+                <option value="veg">Vegetarian</option>
+                <option value="fish">Fish</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="10" name="cheese_level">
+        </p>
+        <p>
+            <label for="feedback">Feedback:</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"
+                placeholder="Enter your Feedback Here"></textarea>
+        </p>
+        <button>Submit</button>
+        <hr>
+    </form>
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter your first name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="usn">Username</label>
+            <input type="text" name="usn" id="usn" minlength="5" maxlength="20" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

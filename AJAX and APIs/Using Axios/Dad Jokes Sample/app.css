@@ -1,0 +1,25 @@
+.container{
+    font-family: 'Noto Sans Mono',monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.joke{
+    font-family: 'Noto Sans Mono',monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#btn1{
+    font-family: 'Noto Sans Mono',monospace;
+}

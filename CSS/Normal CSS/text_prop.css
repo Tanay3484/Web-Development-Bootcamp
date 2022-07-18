@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: blue underline wavy;
+    letter-spacing: 15px;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+p{
+    line-height: 2;
+}

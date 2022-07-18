@@ -1,0 +1,10 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

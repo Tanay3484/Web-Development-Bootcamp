@@ -1,0 +1,18 @@
+<%- include('partials/head') %>
+
+    <%- include('partials/navbar') %> 
+
+    <div class="d-flex justify-content-center align-items-center">
+        <h1>Your Random Number is : <%= rand %> </h1>
+    </div>
+    <% if(rand%2===0){  %>
+    <div class="d-flex justify-content-center align-items-center">
+        <h2>It is an even number</h1>
+    </div>
+    <% } else { %>
+    <div class="d-flex justify-content-center align-items-center">
+        <h2>It is an odd number</h1>
+    </div>
+    <% } %>
+
+    <%- include('partials/footer') %>
